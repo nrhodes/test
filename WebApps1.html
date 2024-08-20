@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A Few JavaScript Event Handler Attributes</title>
+    </head>
+    <body onload="alert('page loaded');">
+        <form action="#" method="get">
+            <div id="formfields">
+                <input type="button" value="presss me" onclick="alert('You pressed my button!');"/>
+            </div>
+        </form>
+        <p onmouseover="alert('on');" onmouseout="alert('off');">Roll me!</p>
+        <p><a href="http://www.google.com" onclick="alert('No search for you!'); return false;">Search Google</a></p>
+
+    </body>
+</html>
